@@ -5,7 +5,7 @@ type User {
   role: String!
 }
 
-type Query {
+extend type Query {
   me: User!
 }
 
